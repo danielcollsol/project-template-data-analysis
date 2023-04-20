@@ -1,0 +1,14 @@
+name: environment_name
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - pip
+  - ipykernel
+  - pandas
+  - pandas-profiling
+  - numpy
+  - pip:
+      - jupyter_black
+      - requests
+      - pandas_profiling
